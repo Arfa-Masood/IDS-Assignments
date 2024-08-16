@@ -1,0 +1,31 @@
+#1. Convert the variable F to uppercase: F = “I am a student at Knowledge Streams” and find the first index of the sub-string Knowledge.
+F = "I am a student at Knowledge Streams"
+F.upper()
+F.find('Knowledge')
+#2. Consider the tuple: flavors = ("vanilla", "mango", "chocolate", "salted caramel", "tutti frutti", "coffee"). Now find the length of the tuple, and flavors and use slicing to obtain the first and last element.
+flavors = ("vanilla", "mango", "chocolate", "salted caramel", "tutti frutti", "coffee")
+flavors
+len(flavors)
+len("flavors")
+print("First element: ", flavors[0])
+print("Last element: ", flavors[-1])
+#3. Concatenate the following lists A = [-2, 'a'] and B = [‘+’,4, ‘a’, 'c'] and store it in a variable  X. Retrieve the elements stored at index 1, 2, and 3 of X.
+A = [-2, 'a']
+B = ['+', 4 , 'a', 'c']
+X=A+B
+print(X)
+X[1:4]
+#4. Convert the list X=['horse', 'dragon', 'fox', 'snake', ‘rat’, ‘cat’, ‘hen’] to a set. Create a new list Y=['dragon', 'snake', ’frog’] Find out if Y is a subset of X and lastly create a new set that is the intersection of X and Y.
+X= set(['horse', 'dragon', 'fox', 'snake', 'rat', 'cat', 'hen'])
+print(X)
+Y= set(['dragon', 'snake', 'frog'])
+print(Y)
+Y.issubset(X)
+Z = X.intersection(Y)
+print(Z)
+#5. Consider the Following dictionary students_dict = {'Intro to Data Science': 25, 'Machine Learning': 18, 'Cybersecurity': 35}. Use the dictionary to find the total number of students of Intro to Data Science and find out what are the keys and what are the values in this dictionary.
+students_dict = {'Intro to Data Science': 25, 'Machine Learning': 18, 'Cybersecurity': 35}
+print(students_dict)
+print(students_dict['Intro to Data Science'])
+print(students_dict.keys())
+print(students_dict.values())
