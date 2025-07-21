@@ -1,0 +1,147 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO5mZm+/7S5an1+AuxjbxUo"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Conditional Statements:\n",
+        "1- WAP to check if a number entered by the user is odd or even"
+      ],
+      "metadata": {
+        "id": "rYhx8NHHpodw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = int(input(\"Please enter an integer: \"))\n",
+        "\n",
+        "if number % 2 == 0:\n",
+        "    print(\"Even\")\n",
+        "else:\n",
+        "    print(\"Odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_ne8x3oBpcBl",
+        "outputId": "fdddf2e8-d264-4b9f-8887-a69d4a36a0bf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Please enter an integer: 22\n",
+            "Even\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2 -WAP to find the greatest of 3 numbers entered by the user."
+      ],
+      "metadata": {
+        "id": "8Kms6dkXpzRU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2xG3w4VTpX7q",
+        "outputId": "2ae6a809-bebb-4534-f7ae-e538a702ff34"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Please enter an integer: 22\n",
+            "Please enter an integer: 44\n",
+            "Please enter an integer: 21\n",
+            "44 is greater than 22 and 21 \n"
+          ]
+        }
+      ],
+      "source": [
+        "n1 = int(input(\"Please enter an integer: \"))\n",
+        "n2 = int(input(\"Please enter an integer: \"))\n",
+        "n3 = int(input(\"Please enter an integer: \"))\n",
+        "if(n1 > n2) and (n1 > n3):\n",
+        "  print(f\"{n1} is greater than {n2} and {n3} \")\n",
+        "elif (n2 > n1) and (n2 > n3):\n",
+        "  print(f\"{n2} is greater than {n1} and {n3} \")\n",
+        "else:\n",
+        "  print(f\"{n3} is greater than {n1} and {n3} \")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "WAP to check if a number is a multiple of 7 or not"
+      ],
+      "metadata": {
+        "id": "DJ3oj46yrx_e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input(\"Please enter an integer: \"))\n",
+        "if(n % 7 == 0):\n",
+        "  print(f\"{n} is multiple of 7\")\n",
+        "else:\n",
+        "  print(f\"{n} is not multiple of 7\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RAzXq0URrHIK",
+        "outputId": "e81e0384-3cd5-4006-bf13-7a29f00ce0ed"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Please enter an integer: 21\n",
+            "21 is multiple of 7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "qwQZj2TEsOoc"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
